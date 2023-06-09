@@ -1,0 +1,6 @@
+public class Pago {
+
+	private Float valor;
+	
+	public PagoFinal();
+}
