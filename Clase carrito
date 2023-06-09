@@ -1,0 +1,11 @@
+public class Carrito {
+
+	private Int Codigo;
+	private Cliente Cliente;
+	private Producto1 Producto;
+	private Producto2 Producto;
+	private Producto3 Producto;
+
+	public CargarProducto();
+	public CostoCompraAcumulada();
+}
