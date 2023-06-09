@@ -1,0 +1,6 @@
+Public class Vendedor {
+
+	private String Nombre;
+	private String Apellido;
+	private int Legajo;
+}
