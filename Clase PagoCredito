@@ -1,0 +1,4 @@
+class PagoCredito {
+
+	public PagoFinal();
+}
