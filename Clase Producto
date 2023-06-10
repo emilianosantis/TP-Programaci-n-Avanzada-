@@ -1,9 +1,62 @@
 public class Producto {
 
+	public class Producto {
 	private int CodigoProducto;
 	private String NombreDeProducto;
 	private Double Precio;
 	private int Stock;
+	
+	public Producto() {
+		
+	}
+	
+	public Producto(int CodigoProducto, String NombreProducto, Double Precio, int Stock) {
+		this.CodigoProducto = CodigoProducto;
+		this.NombreDeProducto = NombreProducto;
+		this.Precio = Precio;
+		this.Stock = Stock;
+		
+	}
+
+	public int getCodigoProducto() {
+		return CodigoProducto;
+	}
+
+	public void setCodigoProducto(int codigoProducto) {
+		CodigoProducto = codigoProducto;
+	}
+
+	public String getNombreDeProducto() {
+		return NombreDeProducto;
+	}
+
+	public void setNombreDeProducto(String nombreDeProducto) {
+		NombreDeProducto = nombreDeProducto;
+	}
+
+	public Double getPrecio() {
+		return Precio;
+	}
+
+	public void setPrecio(Double precio) {
+		Precio = precio;
+	}
+
+	public int getStock() {
+		return Stock;
+	}
+
+	public void setStock(int stock) {
+		Stock = stock;
+	}
+	
+	@Override
+	public String toString() {
+		return "Producto [nombre=" + NombreDeProducto + ", precio=" + Precio + "]";
+	}
+	
+	
+}
 
 	public CostoFinal()
 }
