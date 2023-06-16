@@ -43,5 +43,6 @@ public class Productos {
     public String toString(){
         return "NOMBRE:"+ nombre + ", CANTIDAD:"+ "PRECIO DE LA UNIDAD: "+ '$';
     }
+
 }
 
