@@ -30,7 +30,7 @@ public class Supermercado {
             return null;
         }
     }
-    public double venderProducto(String nombre,int cantidad){
+   public double venderProducto(String nombre,int cantidad){
         Productos a = buscarProducto(nombre);
         double stock = 0;
 
@@ -38,6 +38,7 @@ public class Supermercado {
             stock = -1;
         } else if (a.stock(cantidad)) {
             stock = cantidad*a.getPrecioUnitario();
+            a.setCantidadDelProducto(a.getCantidadDelProducto()-cantidad);
             if(a.getCantidadDelProducto()==0){
                 listaDeProductos.remove(nombre);
             }
